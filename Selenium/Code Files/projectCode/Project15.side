@@ -1,0 +1,107 @@
+{
+  "id": "96c68864-256d-44f7-83e2-63536d671b98",
+  "version": "2.0",
+  "name": "Project12",
+  "url": "https://www.britannica.com",
+  "tests": [{
+    "id": "62d5d5b8-f7c0-4d13-b24a-bb225f0dda64",
+    "name": "Test12",
+    "commands": [{
+      "id": "62c97962-c5f7-4e99-946a-b0fbf083ff7b",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e3f0dda0-480f-433a-9057-fa96b02f6fbb",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1330x691",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5e5ab066-5200-47a0-aa01-6583d06d7a74",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=History & Society",
+      "targets": [
+        ["linkText=History & Society", "linkText"],
+        ["css=.category-link-HISTORY", "css:finder"],
+        ["xpath=//a[contains(text(),'History & Society')]", "xpath:link"],
+        ["xpath=//div[@id='global-nav-homepage-section']/div[2]/div/div/div/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/History-Society')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'History & Society')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "52140440-feb3-4fea-b6a2-cf054b23118b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Science & Tech",
+      "targets": [
+        ["linkText=Science & Tech", "linkText"],
+        ["css=.category-link-SCIENCE", "css:finder"],
+        ["xpath=//a[contains(text(),'Science & Tech')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/Science-Tech')]", "xpath:href"],
+        ["xpath=//a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'Science & Tech')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6be9058b-78fa-487b-a55e-5b63eb3dcc76",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Animals & Nature",
+      "targets": [
+        ["linkText=Animals & Nature", "linkText"],
+        ["css=.category-link-ANIMALS", "css:finder"],
+        ["xpath=//a[contains(text(),'Animals & Nature')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/Animals-Nature')]", "xpath:href"],
+        ["xpath=//a[6]", "xpath:position"],
+        ["xpath=//a[contains(.,'Animals & Nature')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6f6e0c22-0cfd-4fec-b3c5-1c3c4559a5f5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Geography & Travel",
+      "targets": [
+        ["linkText=Geography & Travel", "linkText"],
+        ["css=.category-link-GEOGRAPHY", "css:finder"],
+        ["xpath=//a[contains(text(),'Geography & Travel')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/Geography-Travel')]", "xpath:href"],
+        ["xpath=//a[7]", "xpath:position"],
+        ["xpath=//a[contains(.,'Geography & Travel')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "130cd95d-73c0-4b94-8c52-d918ec4e1c4d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=How Do Deserts Form?",
+      "targets": [
+        ["linkText=How Do Deserts Form?", "linkText"],
+        ["css=.super-editors-pick-2 .font-weight-bold", "css:finder"],
+        ["xpath=//a[contains(text(),'How Do Deserts Form?')]", "xpath:link"],
+        ["xpath=//div[@id='content']/div/div[3]/div[2]/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/story/how-do-deserts-form')])[2]", "xpath:href"],
+        ["xpath=//div[3]/div[2]/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'How Do Deserts Form?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "3432663f-58b1-403a-bbe7-f4a90e4b8464",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["62d5d5b8-f7c0-4d13-b24a-bb225f0dda64"]
+  }],
+  "urls": ["https://www.britannica.com/"],
+  "plugins": []
+}

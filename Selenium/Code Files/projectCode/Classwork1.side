@@ -1,0 +1,769 @@
+{
+  "id": "fd561c7b-9be1-4f6b-a5aa-2f68585089e4",
+  "version": "2.0",
+  "name": "software_testing_lab_1",
+  "url": "https://www.cricbuzz.com",
+  "tests": [{
+    "id": "154fae3d-d9c0-426a-ada9-fc2943f268d4",
+    "name": "test1_INDvsSA",
+    "commands": [{
+      "id": "8e8bc219-f5a7-4871-b0cf-3c9e83ad8a98",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b111a8f9-92dd-4b72-9976-d0154f25d13e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x860",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "374953e9-fea8-459c-ac51-beb35595c9ae",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.cb-view-all-ga:nth-child(3) .cb-mtch-crd-state",
+      "targets": [
+        ["css=.cb-view-all-ga:nth-child(3) .cb-mtch-crd-state", "css:finder"],
+        ["xpath=//div[@id='match_menu_container']/div/div/ul/li[3]/a/div[2]/div[3]", "xpath:idRelative"],
+        ["xpath=//li[3]/a/div[2]/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "42e10586-9126-415f-926c-12e6e5125d86",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.cb-view-all-ga:nth-child(3) .cb-mtch-crd-state",
+      "targets": [
+        ["css=.cb-view-all-ga:nth-child(3) .cb-mtch-crd-state", "css:finder"],
+        ["xpath=//div[@id='match_menu_container']/div/div/ul/li[3]/a/div[2]/div[3]", "xpath:idRelative"],
+        ["xpath=//li[3]/a/div[2]/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7968e619-da64-4de3-ab00-3b4ed8bbd89c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.cb-view-all-ga:nth-child(3) .cb-hmscg-tm-bwl-scr",
+      "targets": [
+        ["css=.cb-view-all-ga:nth-child(3) .cb-hmscg-tm-bwl-scr", "css:finder"],
+        ["xpath=//div[@id='match_menu_container']/div/div/ul/li[3]/a/div[2]/div[2]/div", "xpath:idRelative"],
+        ["xpath=//li[3]/a/div[2]/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e495659c-3fef-4e17-9555-cfa6a74e7795",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.big-crd-main:nth-child(1) img",
+      "targets": [
+        ["css=.big-crd-main:nth-child(1) img", "css:finder"],
+        ["xpath=//img[@alt='India set 79 to win at Cape Town']", "xpath:img"],
+        ["xpath=//div[@id='page-wrapper']/div[6]/div[2]/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "43eb0433-bbe8-44ec-99ae-ddd86ec32f95",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.big-crd-main:nth-child(1) img",
+      "targets": [
+        ["css=.big-crd-main:nth-child(1) img", "css:finder"],
+        ["xpath=//img[@alt='India set 79 to win at Cape Town']", "xpath:img"],
+        ["xpath=//div[@id='page-wrapper']/div[6]/div[2]/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0ad13f6f-c31e-4008-9617-b1346d61d115",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cb-view-all-ga:nth-child(1) .cb-hmscg-bwl-txt .cb-col-50:nth-child(2)",
+      "targets": [
+        ["css=.cb-view-all-ga:nth-child(1) .cb-hmscg-bwl-txt .cb-col-50:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='match_menu_container']/div/div/ul/li/a/div[2]/div[2]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5474f00b-254b-490c-beda-bec47367b5ca",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cafc5fea-e6e7-43bf-b76b-823fb6415295",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,136)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b4c92507-1648-4ddd-a4e2-c73c73eb1677",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1201)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c2b59d9c-dec1-43d8-9ba8-93378222408e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Scorecard",
+      "targets": [
+        ["linkText=Scorecard", "linkText"],
+        ["css=.cb-nav-tab:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Scorecard')]", "xpath:link"],
+        ["xpath=//div[@id='matchCenter']/div[2]/nav/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/live-cricket-scorecard/77898/rsa-vs-ind-2nd-test-india-tour-of-south-africa-2023-24')]", "xpath:href"],
+        ["xpath=//div[4]/div[2]/nav/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Scorecard')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "174e6ad4-e33f-428b-8c04-fbca0035a5c5",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,200)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d8b460f4-8e55-4b16-aeb8-62fe1e0b8857",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Squads",
+      "targets": [
+        ["linkText=Squads", "linkText"],
+        ["css=.cb-nav-tab:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Squads')]", "xpath:link"],
+        ["xpath=//div[@id='page-wrapper']/div[4]/div/nav/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/cricket-match-squads/77898/rsa-vs-ind-2nd-test-india-tour-of-south-africa-2023-24')]", "xpath:href"],
+        ["xpath=//div[4]/div/nav/a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Squads')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "89f86da7-0f61-4361-bfc6-cacb22c78863",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Highlights",
+      "targets": [
+        ["linkText=Highlights", "linkText"],
+        ["css=.cb-nav-tab:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'Highlights')]", "xpath:link"],
+        ["xpath=//div[@id='page-wrapper']/div[3]/div/nav/a[4]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/cricket-match-highlights/77898/rsa-vs-ind-2nd-test-india-tour-of-south-africa-2023-24')]", "xpath:href"],
+        ["xpath=//div[3]/div/nav/a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'Highlights')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5505f410-473d-4c68-9286-df46840f8e7e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Full Commentary",
+      "targets": [
+        ["linkText=Full Commentary", "linkText"],
+        ["css=.cb-nav-tab:nth-child(5)", "css:finder"],
+        ["xpath=//a[contains(text(),'Full Commentary')]", "xpath:link"],
+        ["xpath=//div[@id='highlightsCenter']/div/nav/a[5]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/live-cricket-full-commentary/77898/rsa-vs-ind-2nd-test-india-tour-of-south-africa-2023-24')]", "xpath:href"],
+        ["xpath=//div[4]/div/nav/a[5]", "xpath:position"],
+        ["xpath=//a[contains(.,'Full Commentary')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9668eeb0-20c1-4a20-b8ce-be62896e5411",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Live Blog",
+      "targets": [
+        ["linkText=Live Blog", "linkText"],
+        ["css=.cb-nav-tab:nth-child(6)", "css:finder"],
+        ["xpath=(//a[contains(text(),'Live Blog')])[2]", "xpath:link"],
+        ["xpath=//div[@id='fullcommentary']/div/nav/a[6]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/live-cricket-match-blog/77898/rsa-vs-ind-2nd-test-india-tour-of-south-africa-2023-24')]", "xpath:href"],
+        ["xpath=//div[3]/div/nav/a[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "31e2521c-4e4c-4edd-8630-e90a8726074f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Match Facts",
+      "targets": [
+        ["linkText=Match Facts", "linkText"],
+        ["css=.cb-nav-tab:nth-child(7)", "css:finder"],
+        ["xpath=//a[contains(text(),'Match Facts')]", "xpath:link"],
+        ["xpath=//div[@id='page-wrapper']/div[3]/div/nav/a[7]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/cricket-match-facts/77898/rsa-vs-ind-2nd-test-india-tour-of-south-africa-2023-24')]", "xpath:href"],
+        ["xpath=//div[3]/div/nav/a[7]", "xpath:position"],
+        ["xpath=//a[contains(.,'Match Facts')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1239d5e2-e24e-4bba-bacc-34755fa2dae6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cb-nav-tab:nth-child(8)",
+      "targets": [
+        ["css=.cb-nav-tab:nth-child(8)", "css:finder"],
+        ["xpath=(//a[contains(text(),'News')])[3]", "xpath:link"],
+        ["xpath=//div[@id='page-wrapper']/div[3]/div/nav/a[8]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/cricket-match-news/77898/rsa-vs-ind-2nd-test-india-tour-of-south-africa-2023-24')]", "xpath:href"],
+        ["xpath=//div[3]/div/nav/a[8]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "affac245-cf6f-4fc7-b191-1e6f9759a350",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Photos",
+      "targets": [
+        ["linkText=Photos", "linkText"],
+        ["css=.cb-nav-tab:nth-child(9)", "css:finder"],
+        ["xpath=(//a[contains(text(),'Photos')])[2]", "xpath:link"],
+        ["xpath=//div[@id='page-wrapper']/div[3]/div/nav/a[9]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/cricket-match-photos/77898/rsa-vs-ind-2nd-test-india-tour-of-south-africa-2023-24')]", "xpath:href"],
+        ["xpath=//div[3]/div/nav/a[9]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a883297-4acb-42ab-9e17-b274383b8f9f",
+      "comment": "",
+      "command": "click",
+      "target": "css=img:nth-child(2)",
+      "targets": [
+        ["css=img:nth-child(2)", "css:finder"],
+        ["xpath=//img[@alt='South Africa vs India, 2nd Test, Day 1']", "xpath:img"],
+        ["xpath=//div[@id='page-wrapper']/div[3]/div[2]/div/a/div/img", "xpath:idRelative"],
+        ["xpath=//div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c1e4614f-833f-4003-9a73-a2a39a2a69c8",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,200)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "04c89917-7368-4729-8706-cc67473d1f72",
+    "name": "test2_PAKvsAUS",
+    "commands": [{
+      "id": "c7761256-8b08-4577-87b6-085088c5e7de",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "362424a4-8f0e-4926-bf48-f47df0a05622",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x860",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "43d04492-7edd-47d9-bea8-18a6dc077826",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.cb-view-all-ga:nth-child(2) .cb-mtch-crd-hdr",
+      "targets": [
+        ["css=.cb-view-all-ga:nth-child(2) .cb-mtch-crd-hdr", "css:finder"],
+        ["xpath=//div[@id='match_menu_container']/div/div/ul/li[2]/a/div", "xpath:idRelative"],
+        ["xpath=//li[2]/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6c08ff58-213f-4198-8247-2f1fc8dfd5ec",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.cb-view-all-ga:nth-child(1) .cb-hmscg-bat-txt .cb-col-50:nth-child(2)",
+      "targets": [
+        ["css=.cb-view-all-ga:nth-child(1) .cb-hmscg-bat-txt .cb-col-50:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='match_menu_container']/div/div/ul/li/a/div[2]/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f04f299b-1fe7-4d2b-bde1-07a9db6a244a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cb-view-all-ga:nth-child(3) .cb-hmscg-bat-txt .cb-col-50:nth-child(2)",
+      "targets": [
+        ["css=.cb-view-all-ga:nth-child(3) .cb-hmscg-bat-txt .cb-col-50:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='match_menu_container']/div/div/ul/li[3]/a/div[2]/div[2]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//li[3]/a/div[2]/div[2]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9a8f80ea-9cc9-4dd1-a5a4-da3bfa2a5248",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,6)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2ed6ab59-74d9-47a6-a3c3-688a149e1b4f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=RSA vs IND - Lunch",
+      "targets": [
+        ["linkText=RSA vs IND - Lunch", "linkText"],
+        ["css=.cb-mat-mnu-itm:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'RSA vs IND - Lunch')]", "xpath:link"],
+        ["xpath=//div[@id='page-wrapper']/div[2]/div/nav/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/live-cricket-scores/77898/rsa-vs-ind-2nd-test-india-tour-of-south-africa-2023-24')]", "xpath:href"],
+        ["xpath=//div[2]/div/nav/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'RSA vs IND - Lunch')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e6c3672-c955-404f-af2a-baa0cab95f9a",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=RSA vs IND - Lunch",
+      "targets": [
+        ["linkText=RSA vs IND - Lunch", "linkText"],
+        ["css=.cb-mat-mnu-itm:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'RSA vs IND - Lunch')]", "xpath:link"],
+        ["xpath=//div[@id='page-wrapper']/div[2]/div/nav/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/live-cricket-scores/77898/rsa-vs-ind-2nd-test-india-tour-of-south-africa-2023-24')]", "xpath:href"],
+        ["xpath=//div[2]/div/nav/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'RSA vs IND - Lunch')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f2647983-60ce-4f1b-9a68-e99aba61a5c9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Scorecard",
+      "targets": [
+        ["linkText=Scorecard", "linkText"],
+        ["css=.cb-nav-tab:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Scorecard')]", "xpath:link"],
+        ["xpath=//div[@id='matchCenter']/div[2]/nav/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/live-cricket-scorecard/70319/aus-vs-pak-3rd-test-pakistan-tour-of-australia-2023-24')]", "xpath:href"],
+        ["xpath=//div[4]/div[2]/nav/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Scorecard')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "17852a2d-f9ff-47ea-bca8-93743de5e76a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Squads",
+      "targets": [
+        ["linkText=Squads", "linkText"],
+        ["css=.cb-nav-tab:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Squads')]", "xpath:link"],
+        ["xpath=//div[@id='page-wrapper']/div[4]/div/nav/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/cricket-match-squads/70319/aus-vs-pak-3rd-test-pakistan-tour-of-australia-2023-24')]", "xpath:href"],
+        ["xpath=//div[4]/div/nav/a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Squads')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "db314ea0-194a-4e6a-8d90-3901a3d1823f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Highlights",
+      "targets": [
+        ["linkText=Highlights", "linkText"],
+        ["css=.cb-nav-tab:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'Highlights')]", "xpath:link"],
+        ["xpath=//div[@id='page-wrapper']/div[3]/div/nav/a[4]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/cricket-match-highlights/70319/aus-vs-pak-3rd-test-pakistan-tour-of-australia-2023-24')]", "xpath:href"],
+        ["xpath=//div[3]/div/nav/a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'Highlights')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0b432692-3cc8-40b3-994d-790a58c562db",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=AUS 1st Inns",
+      "targets": [
+        ["linkText=AUS 1st Inns", "linkText"],
+        ["css=.ng-scope:nth-child(2) > .cb-nav-pill-1", "css:finder"],
+        ["xpath=//a[contains(text(),'AUS 1st Inns')]", "xpath:link"],
+        ["xpath=//div[@id='highlightsCenter']/div[2]/div/nav/div/span[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0)')])[2]", "xpath:href"],
+        ["xpath=//span[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'AUS 1st Inns')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "47b37c0b-c7f6-4cb7-8caf-d57fc4020fb5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=AUS 1st Inns",
+      "targets": [
+        ["linkText=AUS 1st Inns", "linkText"],
+        ["css=.ng-scope:nth-child(2) > .cb-nav-pill-1", "css:finder"],
+        ["xpath=//a[contains(text(),'AUS 1st Inns')]", "xpath:link"],
+        ["xpath=//div[@id='highlightsCenter']/div[2]/div/nav/div/span[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0)')])[2]", "xpath:href"],
+        ["xpath=//span[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'AUS 1st Inns')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fab18636-fe7f-43e2-877c-3efe5c3d3a65",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=AUS 1st Inns",
+      "targets": [
+        ["linkText=AUS 1st Inns", "linkText"],
+        ["css=.ng-scope > .active", "css:finder"],
+        ["xpath=//a[contains(text(),'AUS 1st Inns')]", "xpath:link"],
+        ["xpath=//div[@id='highlightsCenter']/div[2]/div/nav/div/span[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0)')])[2]", "xpath:href"],
+        ["xpath=//span[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'AUS 1st Inns')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d8c6c99e-b538-4b8e-948c-04c2d29e584c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Full Commentary",
+      "targets": [
+        ["linkText=Full Commentary", "linkText"],
+        ["css=.cb-nav-tab:nth-child(5)", "css:finder"],
+        ["xpath=//a[contains(text(),'Full Commentary')]", "xpath:link"],
+        ["xpath=//div[@id='highlightsCenter']/div/nav/a[5]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/live-cricket-full-commentary/70319/aus-vs-pak-3rd-test-pakistan-tour-of-australia-2023-24')]", "xpath:href"],
+        ["xpath=//div[4]/div/nav/a[5]", "xpath:position"],
+        ["xpath=//a[contains(.,'Full Commentary')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "12183193-f084-42d1-808a-13c8d341df59",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Live Blog",
+      "targets": [
+        ["linkText=Live Blog", "linkText"],
+        ["css=.cb-nav-tab:nth-child(7)", "css:finder"],
+        ["xpath=(//a[contains(text(),'Live Blog')])[2]", "xpath:link"],
+        ["xpath=//div[@id='fullcommentary']/div/nav/a[7]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/live-cricket-match-blog/70319/aus-vs-pak-3rd-test-pakistan-tour-of-australia-2023-24')]", "xpath:href"],
+        ["xpath=//div[3]/div/nav/a[7]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d9735c3-2e83-4017-a501-10528a62bcca",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Match Facts",
+      "targets": [
+        ["linkText=Match Facts", "linkText"],
+        ["css=.cb-nav-tab:nth-child(7)", "css:finder"],
+        ["xpath=//a[contains(text(),'Match Facts')]", "xpath:link"],
+        ["xpath=//div[@id='page-wrapper']/div[3]/div/nav/a[7]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/cricket-match-facts/70319/aus-vs-pak-3rd-test-pakistan-tour-of-australia-2023-24')]", "xpath:href"],
+        ["xpath=//div[3]/div/nav/a[7]", "xpath:position"],
+        ["xpath=//a[contains(.,'Match Facts')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4bf34efd-c812-4d5c-8c91-7bcb0ba79e63",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cb-nav-tab:nth-child(8)",
+      "targets": [
+        ["css=.cb-nav-tab:nth-child(8)", "css:finder"],
+        ["xpath=(//a[contains(text(),'News')])[3]", "xpath:link"],
+        ["xpath=//div[@id='page-wrapper']/div[3]/div/nav/a[8]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/cricket-match-news/70319/aus-vs-pak-3rd-test-pakistan-tour-of-australia-2023-24')]", "xpath:href"],
+        ["xpath=//div[3]/div/nav/a[8]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ebb928e9-f778-474d-9651-64c307c224e0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Photos",
+      "targets": [
+        ["linkText=Photos", "linkText"],
+        ["css=.cb-nav-tab:nth-child(9)", "css:finder"],
+        ["xpath=(//a[contains(text(),'Photos')])[2]", "xpath:link"],
+        ["xpath=//div[@id='page-wrapper']/div[3]/div/nav/a[9]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/cricket-match-photos/70319/aus-vs-pak-3rd-test-pakistan-tour-of-australia-2023-24')]", "xpath:href"],
+        ["xpath=//div[3]/div/nav/a[9]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "38170563-47aa-4b0f-9329-2bc63e49386f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Commentary",
+      "targets": [
+        ["linkText=Commentary", "linkText"],
+        ["css=.cb-nav-tab:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Commentary')]", "xpath:link"],
+        ["xpath=//div[@id='page-wrapper']/div[3]/div/nav/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/live-cricket-scores/70319/aus-vs-pak-3rd-test-pakistan-tour-of-australia-2023-24')]", "xpath:href"],
+        ["xpath=//div[3]/div/nav/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Commentary')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a4a278eb-1fe3-477a-b880-87222b45ae18",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Aamer Jamal",
+      "targets": [
+        ["linkText=Aamer Jamal", "linkText"],
+        ["css=.ng-scope:nth-child(2) > .cb-col:nth-child(3) > .cb-col > .cb-text-link", "css:finder"],
+        ["xpath=(//a[contains(text(),'Aamer Jamal')])[2]", "xpath:link"],
+        ["xpath=//div[@id='matchCenter']/div[3]/div[2]/div/div[2]/div[2]/div[3]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/profiles/31139/aamer-jamal')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/div[2]/div[2]/div[3]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9eb10ba0-eb69-4212-be0b-09fc86d18b18",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Marnus Labuschagne",
+      "targets": [
+        ["linkText=Marnus Labuschagne", "linkText"],
+        ["css=.ng-scope:nth-child(1) > .cb-col:nth-child(3) .cb-text-link", "css:finder"],
+        ["xpath=(//a[contains(text(),'Marnus Labuschagne')])[2]", "xpath:link"],
+        ["xpath=//div[@id='matchCenter']/div[3]/div[2]/div/div[2]/div/div[3]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/profiles/10182/marnus-labuschagne')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/div[2]/div/div[3]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "f5f908c5-9629-4a4c-810f-cf9d93362cfa",
+    "name": "test3_Schedules",
+    "commands": [{
+      "id": "ee5a07bc-dc0c-49db-9878-bf235386ccb3",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "48236d19-bdbc-43e6-9c4f-fefe65ac5276",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x860",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6dd757f3-2145-4c46-9d4b-31a4faac8f7e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.cb-view-all-ga:nth-child(2) .cb-hmscg-bat-txt .cb-col-50:nth-child(2)",
+      "targets": [
+        ["css=.cb-view-all-ga:nth-child(2) .cb-hmscg-bat-txt .cb-col-50:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='match_menu_container']/div/div/ul/li[2]/a/div[2]/div[2]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//li[2]/a/div[2]/div[2]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ffb8b0ed-66ec-4c13-8b33-7c6c60bd25b9",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.cb-view-all-ga:nth-child(2) .cb-hmscg-bat-txt .cb-col-50:nth-child(2)",
+      "targets": [
+        ["css=.cb-view-all-ga:nth-child(2) .cb-hmscg-bat-txt .cb-col-50:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='match_menu_container']/div/div/ul/li[2]/a/div[2]/div[2]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//li[2]/a/div[2]/div[2]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6d57056b-32ea-4e69-9a7d-c36d94a12530",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Dhananjaya de Silva named Sri Lanka's new Test captain",
+      "targets": [
+        ["linkText=Dhananjaya de Silva named Sri Lanka's new Test captain", "linkText"],
+        ["css=.cb-col-100:nth-child(1) > .cb-nws-hdln-ancr", "css:finder"],
+        ["xpath=//div[@id='cb-news-blck']/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/cricket-news/129035/dhananjaya-de-silva-named-sri-lankas-new-test-captain')]", "xpath:href"],
+        ["xpath=//div[5]/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a7e3af24-5e08-411a-b720-43d23e78c3e0",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Dhananjaya de Silva named Sri Lanka's new Test captain",
+      "targets": [
+        ["linkText=Dhananjaya de Silva named Sri Lanka's new Test captain", "linkText"],
+        ["css=.cb-col-100:nth-child(1) > .cb-nws-hdln-ancr", "css:finder"],
+        ["xpath=//div[@id='cb-news-blck']/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/cricket-news/129035/dhananjaya-de-silva-named-sri-lankas-new-test-captain')]", "xpath:href"],
+        ["xpath=//div[5]/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "94ea86f8-af94-4785-b76f-41f3a252acf3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Live Scores",
+      "targets": [
+        ["linkText=Live Scores", "linkText"],
+        ["css=.cb-hm-mnu-itm:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Live Scores')]", "xpath:link"],
+        ["xpath=//nav[@id='cb-main-menu']/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/cricket-match/live-scores')]", "xpath:href"],
+        ["xpath=//nav/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Live Scores')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d7e79b1-101c-490e-a6ce-3e7b986cf016",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=RSA vs IND - Lunch",
+      "targets": [
+        ["linkText=RSA vs IND - Lunch", "linkText"],
+        ["css=.cb-mat-mnu-itm:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'RSA vs IND - Lunch')]", "xpath:link"],
+        ["xpath=//div[@id='page-wrapper']/div[2]/div/nav/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/live-cricket-scores/77898/rsa-vs-ind-2nd-test-india-tour-of-south-africa-2023-24')]", "xpath:href"],
+        ["xpath=//div[2]/div/nav/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'RSA vs IND - Lunch')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4fafd462-a39d-434e-a6e7-9bff0bcd0701",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Schedule",
+      "targets": [
+        ["linkText=Schedule", "linkText"],
+        ["css=.cb-hm-mnu-itm:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Schedule')]", "xpath:link"],
+        ["xpath=//nav[@id='cb-main-menu']/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/cricket-schedule/upcoming-series/international')]", "xpath:href"],
+        ["xpath=//nav/a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Schedule')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8cf01af0-7c17-459d-a43f-99dfb90cbac2",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,199)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "af25bcf0-4754-48f1-b9e3-69dadce26b28",
+      "comment": "",
+      "command": "click",
+      "target": "id=domestic-tab",
+      "targets": [
+        ["id=domestic-tab", "id"],
+        ["linkText=Domestic & Others", "linkText"],
+        ["css=#domestic-tab", "css:finder"],
+        ["xpath=//a[contains(text(),'Domestic & Others')]", "xpath:link"],
+        ["xpath=//a[@id='domestic-tab']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div[4]/nav/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/cricket-schedule/upcoming-series/domestic')]", "xpath:href"],
+        ["xpath=//div[2]/div[4]/nav/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Domestic & Others')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "37820513-8547-44e4-8b09-e79cbdaecf64",
+      "comment": "",
+      "command": "click",
+      "target": "id=league-tab",
+      "targets": [
+        ["id=league-tab", "id"],
+        ["linkText=T20 Leagues", "linkText"],
+        ["css=#league-tab", "css:finder"],
+        ["xpath=//a[contains(text(),'T20 Leagues')]", "xpath:link"],
+        ["xpath=//a[@id='league-tab']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div[4]/nav/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/cricket-schedule/upcoming-series/league')]", "xpath:href"],
+        ["xpath=//div[2]/div[4]/nav/a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'T20 Leagues')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e2a49f9e-586e-4638-84df-49ebe4369788",
+      "comment": "",
+      "command": "click",
+      "target": "id=women-tab",
+      "targets": [
+        ["id=women-tab", "id"],
+        ["linkText=Women", "linkText"],
+        ["css=#women-tab", "css:finder"],
+        ["xpath=(//a[contains(text(),'Women')])[3]", "xpath:link"],
+        ["xpath=//a[@id='women-tab']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div[4]/nav/a[4]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/cricket-schedule/upcoming-series/women')]", "xpath:href"],
+        ["xpath=//div[4]/nav/a[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1259ee1a-d03c-45a4-b1f8-31724118fa67",
+      "comment": "",
+      "command": "click",
+      "target": "id=all-tab",
+      "targets": [
+        ["id=all-tab", "id"],
+        ["linkText=All Matches", "linkText"],
+        ["css=#all-tab", "css:finder"],
+        ["xpath=//a[contains(text(),'All Matches')]", "xpath:link"],
+        ["xpath=//a[@id='all-tab']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div[4]/nav/a[5]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/cricket-schedule/upcoming-series/all')]", "xpath:href"],
+        ["xpath=//div[4]/nav/a[5]", "xpath:position"],
+        ["xpath=//a[contains(.,'All Matches')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e942d7e6-d7fb-4ea8-bffc-87ceb5a0b774",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2415)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ef629533-62ca-45b2-bf70-239b45475aa4",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,7999)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e414a95c-390f-4759-9074-2de5d482d28d",
+      "comment": "",
+      "command": "click",
+      "target": "id=top-btn",
+      "targets": [
+        ["id=top-btn", "id"],
+        ["css=#top-btn", "css:finder"],
+        ["xpath=//div[@id='top-btn']", "xpath:attributes"],
+        ["xpath=//body/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "dbec1e00-be7f-466c-9b75-f4f7f0ee5f83",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["154fae3d-d9c0-426a-ada9-fc2943f268d4"]
+  }],
+  "urls": ["https://www.cricbuzz.com/"],
+  "plugins": []
+}

@@ -1,0 +1,109 @@
+{
+  "id": "5dc32961-3671-44b2-96a9-1a583d537b6b",
+  "version": "2.0",
+  "name": "Project11",
+  "url": "https://www.ieee.org",
+  "tests": [{
+    "id": "0390a79f-0553-4d5f-b703-41f5613a2cca",
+    "name": "Test11",
+    "commands": [{
+      "id": "bfc13a11-9d43-4808-9d39-3b13b9f76af9",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "85651d97-5678-4511-8ca8-c68925f26dfa",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1330x691",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "02372e89-c80b-4ac9-92e8-8bfa307a130f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Upcoming conferences",
+      "targets": [
+        ["linkText=Upcoming conferences", "linkText"],
+        ["css=#header_menu_4 .dropdown-left li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Upcoming conferences')]", "xpath:link"],
+        ["xpath=//li[@id='header_menu_4']/div/div/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://conferences.ieee.org/conferences_events/conferences/search?q=*&subsequent_q=&date=all&from=&to=&region=all&country=all&pos=0&sortorder=desc&sponsor=&sponsor_type=all&state=all&field_of_interest=all&sortfield=relevance?utm_source=mm_con_search&utm_medium=hp&utm_campaign=conferences-search-all')]", "xpath:href"],
+        ["xpath=//li[6]/div/div/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Upcoming conferences')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "095aaa01-3b6c-4636-a5f9-85fe20eaf830",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=IEEE Spectrum",
+      "targets": [
+        ["linkText=IEEE Spectrum", "linkText"],
+        ["css=.top-divider-space:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'IEEE Spectrum')]", "xpath:link"],
+        ["xpath=//a[@onclick=\"trackCampaignEvent('mn_spec')\"]", "xpath:attributes"],
+        ["xpath=//div[@id='util-left']/a[4]", "xpath:idRelative"],
+        ["xpath=//a[@href='http://spectrum.ieee.org/']", "xpath:href"],
+        ["xpath=//a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'IEEE Spectrum')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "32b00ee9-b6fb-4ebd-9950-b655a161f1a0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=IEEE Spectrum",
+      "targets": [
+        ["linkText=IEEE Spectrum", "linkText"],
+        ["css=.top-divider-space:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'IEEE Spectrum')]", "xpath:link"],
+        ["xpath=//a[@onclick=\"trackCampaignEvent('mn_spec')\"]", "xpath:attributes"],
+        ["xpath=//div[@id='util-left']/a[4]", "xpath:idRelative"],
+        ["xpath=//a[@href='http://spectrum.ieee.org/']", "xpath:href"],
+        ["xpath=//a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'IEEE Spectrum')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "28dda16e-4013-4457-9c8b-a54b50b97860",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "46dc815f-8eef-4f53-aff5-1653a95da532",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,124)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0d268bcb-67ec-49c9-80af-1ecb0c425830",
+      "comment": "",
+      "command": "click",
+      "target": "css=#s__TopHome_Options_0_0_32_0_0_0_0_0 .all-related-sections > .rm-stats-tracked:nth-child(1)",
+      "targets": [
+        ["css=#s__TopHome_Options_0_0_32_0_0_0_0_0 .all-related-sections > .rm-stats-tracked:nth-child(1)", "css:finder"],
+        ["xpath=(//a[contains(text(),'Artificial Intelligence')])[3]", "xpath:link"],
+        ["xpath=//div[@id='s__TopHome_Options_0_0_32_0_0_0_0_0']/div/div/div/article/div/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://spectrum.ieee.org/topic/artificial-intelligence/')]", "xpath:href"],
+        ["xpath=//article/div/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "5cbd0a36-257b-4abe-a31a-da41ef54d566",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["0390a79f-0553-4d5f-b703-41f5613a2cca"]
+  }],
+  "urls": ["https://www.ieee.org/"],
+  "plugins": []
+}

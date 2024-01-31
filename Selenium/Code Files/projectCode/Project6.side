@@ -1,0 +1,215 @@
+{
+  "id": "8cace5e9-9662-4ec6-8aa4-ce1dcc06689d",
+  "version": "2.0",
+  "name": "Project6",
+  "url": "https://olympics.com",
+  "tests": [{
+    "id": "3949e2d1-2ba0-4e5a-9c3a-22ce9ed8cfa4",
+    "name": "Test6",
+    "commands": [{
+      "id": "4cab5c88-a04c-4434-af38-3f5dd3854cdb",
+      "comment": "",
+      "command": "open",
+      "target": "/en/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "278d5c3f-3710-4c06-a3b4-740f40be9e07",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1330x691",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3fca7bb5-2f00-48df-b08b-e409d8999f42",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Sports",
+      "targets": [
+        ["linkText=Sports", "linkText"],
+        ["css=#menu-sports > #menu-sports", "css:finder"],
+        ["xpath=//a[contains(text(),'Sports')]", "xpath:link"],
+        ["xpath=//a[@id='menu-sports']", "xpath:attributes"],
+        ["xpath=//li[@id='menu-sports']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://olympics.com/en/sports/')]", "xpath:href"],
+        ["xpath=//div[3]/div/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sports')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0c1e5788-a92e-49b4-9cf2-546e2cc2fdab",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sports",
+      "targets": [
+        ["linkText=Sports", "linkText"],
+        ["css=#menu-sports > #menu-sports", "css:finder"],
+        ["xpath=//a[contains(text(),'Sports')]", "xpath:link"],
+        ["xpath=//a[@id='menu-sports']", "xpath:attributes"],
+        ["xpath=//li[@id='menu-sports']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://olympics.com/en/sports/')]", "xpath:href"],
+        ["xpath=//div[3]/div/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sports')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b34f0585-154e-4ad9-a80a-a58a890fbd84",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Sports",
+      "targets": [
+        ["linkText=Sports", "linkText"],
+        ["css=#menu-sports > #menu-sports", "css:finder"],
+        ["xpath=//a[contains(text(),'Sports')]", "xpath:link"],
+        ["xpath=//a[@id='menu-sports']", "xpath:attributes"],
+        ["xpath=//li[@id='menu-sports']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://olympics.com/en/sports/')]", "xpath:href"],
+        ["xpath=//div[3]/div/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sports')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a842ffcc-73cf-4b83-aa15-18f5eeca9d36",
+      "comment": "",
+      "command": "click",
+      "target": "css=.onetrust-pc-dark-filter",
+      "targets": [
+        ["css=.onetrust-pc-dark-filter", "css:finder"],
+        ["xpath=//div[@id='onetrust-consent-sdk']/div", "xpath:idRelative"],
+        ["xpath=//body/div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8d414a5d-cdee-4603-84f6-889887425553",
+      "comment": "",
+      "command": "click",
+      "target": "id=onetrust-accept-btn-handler",
+      "targets": [
+        ["id=onetrust-accept-btn-handler", "id"],
+        ["css=#onetrust-accept-btn-handler", "css:finder"],
+        ["xpath=//button[@id='onetrust-accept-btn-handler']", "xpath:attributes"],
+        ["xpath=//div[@id='onetrust-button-group']/button[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Yes, I am happy')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f56a21a-0eee-4d79-be82-93896d735ab3",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Milano Cortina 2026",
+      "targets": [
+        ["linkText=Milano Cortina 2026", "linkText"],
+        ["css=#f85800fa-bb01-4bad-bea1-79df229b2708 > #f85800fa-bb01-4bad-bea1-79df229b2708", "css:finder"],
+        ["xpath=//a[contains(text(),'Milano Cortina 2026')]", "xpath:link"],
+        ["xpath=//a[@id='f85800fa-bb01-4bad-bea1-79df229b2708']", "xpath:attributes"],
+        ["xpath=//li[@id='f85800fa-bb01-4bad-bea1-79df229b2708']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://olympics.com/en/olympic-games/milano-cortina-2026')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Milano Cortina 2026')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5eabce56-8ed0-43e9-b850-d9630bed96bb",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Milano Cortina 2026",
+      "targets": [
+        ["linkText=Milano Cortina 2026", "linkText"],
+        ["css=#f85800fa-bb01-4bad-bea1-79df229b2708 > #f85800fa-bb01-4bad-bea1-79df229b2708", "css:finder"],
+        ["xpath=//a[contains(text(),'Milano Cortina 2026')]", "xpath:link"],
+        ["xpath=//a[@id='f85800fa-bb01-4bad-bea1-79df229b2708']", "xpath:attributes"],
+        ["xpath=//li[@id='f85800fa-bb01-4bad-bea1-79df229b2708']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://olympics.com/en/olympic-games/milano-cortina-2026')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Milano Cortina 2026')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4312a4c8-c3e1-421b-b195-36f44f0e3513",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Athletes",
+      "targets": [
+        ["linkText=Athletes", "linkText"],
+        ["css=#menu-athletes > #menu-athletes", "css:finder"],
+        ["xpath=//a[contains(text(),'Athletes')]", "xpath:link"],
+        ["xpath=//a[@id='menu-athletes']", "xpath:attributes"],
+        ["xpath=//li[@id='menu-athletes']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://olympics.com/en/athletes/')]", "xpath:href"],
+        ["xpath=//div[3]/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Athletes')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ea554cdf-3c11-4677-bc9d-92eea8bcfc71",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,101)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e5c0262a-b37c-4b04-ace4-5436317011ad",
+      "comment": "",
+      "command": "click",
+      "target": "css=.list--item__athlete:nth-child(9) img",
+      "targets": [
+        ["css=.list--item__athlete:nth-child(9) img", "css:finder"],
+        ["xpath=//img[@alt='Kaylee MCKEOWN']", "xpath:img"],
+        ["xpath=//react-component[@id='react-component-3']/div/div/ul/li[9]/span/article/a/figure/picture/img", "xpath:idRelative"],
+        ["xpath=//li[9]/span/article/a/figure/picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7aafba4a-c912-4e3e-a14a-b15f2323bab1",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.list--item__athlete:nth-child(10) img",
+      "targets": [
+        ["css=.list--item__athlete:nth-child(10) img", "css:finder"],
+        ["xpath=//img[@alt='Caeleb DRESSEL']", "xpath:img"],
+        ["xpath=//react-component[@id='react-component-3']/div/div/ul/li[10]/span/article/a/figure/picture/img", "xpath:idRelative"],
+        ["xpath=//li[10]/span/article/a/figure/picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "adbcd3bc-17e7-4b59-a0dd-99ade5da2253",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.list--item__athlete:nth-child(10) img",
+      "targets": [
+        ["css=.list--item__athlete:nth-child(10) img", "css:finder"],
+        ["xpath=//img[@alt='Caeleb DRESSEL']", "xpath:img"],
+        ["xpath=//react-component[@id='react-component-3']/div/div/ul/li[10]/span/article/a/figure/picture/img", "xpath:idRelative"],
+        ["xpath=//li[10]/span/article/a/figure/picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d63171a7-02bf-4ec8-85b7-69d0b4457f96",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=News",
+      "targets": [
+        ["linkText=News", "linkText"],
+        ["css=#menu-stories > #menu-stories", "css:finder"],
+        ["xpath=//a[contains(text(),'News')]", "xpath:link"],
+        ["xpath=//a[@id='menu-stories']", "xpath:attributes"],
+        ["xpath=//li[@id='menu-stories']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://olympics.com/en/news/')]", "xpath:href"],
+        ["xpath=//div[3]/div/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'News')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "6955052c-9da2-4f12-8437-05da30a08c16",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["3949e2d1-2ba0-4e5a-9c3a-22ce9ed8cfa4"]
+  }],
+  "urls": ["https://olympics.com/"],
+  "plugins": []
+}

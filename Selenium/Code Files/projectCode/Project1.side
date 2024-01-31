@@ -1,0 +1,61 @@
+{
+  "id": "1e159e90-5e96-41c8-a6dd-8e08b790abf7",
+  "version": "2.0",
+  "name": "Project1",
+  "url": "https://www.cricbuzz.com",
+  "tests": [{
+    "id": "57e1bb59-60dc-4321-b389-e39a0f0732fe",
+    "name": "Test1",
+    "commands": [{
+      "id": "82f6d80e-cc37-4a9e-a9c9-495fd180dab2",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4f0accdc-bc95-46c0-91dc-ca93bec05142",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1330x691",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "71b3505a-b2fc-4fc6-9627-74f6eda76c7b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Live Scores",
+      "targets": [
+        ["linkText=Live Scores", "linkText"],
+        ["css=.cb-hm-mnu-itm:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Live Scores')]", "xpath:link"],
+        ["xpath=//nav[@id='cb-main-menu']/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/cricket-match/live-scores')]", "xpath:href"],
+        ["xpath=//nav/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Live Scores')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "242be73e-db85-4b63-ba35-5f301916e397",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cb-lv-scrs-well-live .cb-hmscg-bat-txt > .cb-ovr-flo:nth-child(2)",
+      "targets": [
+        ["css=.cb-lv-scrs-well-live .cb-hmscg-bat-txt > .cb-ovr-flo:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='page-wrapper']/div[5]/div[2]/div/div/div/div[2]/a/div/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//a/div/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "42f97ec9-ab16-4fe8-91b6-fe82fb3a418e",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["57e1bb59-60dc-4321-b389-e39a0f0732fe"]
+  }],
+  "urls": ["https://www.cricbuzz.com/"],
+  "plugins": []
+}

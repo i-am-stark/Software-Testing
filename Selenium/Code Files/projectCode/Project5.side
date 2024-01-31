@@ -1,0 +1,102 @@
+{
+  "id": "745c16e1-e8c9-46dd-acd9-b3ba3075d092",
+  "version": "2.0",
+  "name": "Project5",
+  "url": "https://www.icc-cricket.com",
+  "tests": [{
+    "id": "8f156a29-3df9-4dbf-ac95-b215af2e2be2",
+    "name": "Test5",
+    "commands": [{
+      "id": "7284ab35-80c9-4b5f-a206-3bf8e01cd1f9",
+      "comment": "",
+      "command": "open",
+      "target": "/tournaments/cricketworldcup",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "370bdea3-262d-4164-ace7-c5dbb0a0402c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1330x691",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a3c6e557-8137-482e-bb58-7dcc7fd80b33",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.si-card-item:nth-child(3) .si-btn-site:nth-child(1)",
+      "targets": [
+        ["css=.si-card-item:nth-child(3) .si-btn-site:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='galaxyBar_N0Exlg0SDyH8SXlYCv8TK']/div/div/div/div/div/div/div/div[3]/div[2]/div[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0)')])[5]", "xpath:href"],
+        ["xpath=//div[3]/div[2]/div[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "24f93893-c235-4d2b-a54a-2e0499645b3c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,98)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c860bc5d-12c5-46d0-a2e5-3850991f746e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.group:nth-child(3) > .lg\\3A block",
+      "targets": [
+        ["css=.group:nth-child(3) > .lg\\3A block", "css:finder"],
+        ["xpath=(//a[contains(text(),'Standings')])[2]", "xpath:link"],
+        ["xpath=//div[@id='primaryNavigation_pgAQZ-zxOlme-Iaeqa7bE']/div/div/div[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/tournaments/cricketworldcup/standings')])[2]", "xpath:href"],
+        ["xpath=//div[4]/div/div/div[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "27425baf-fa5c-49e1-93a9-699626bceabe",
+      "comment": "",
+      "command": "click",
+      "target": "css=.group:nth-child(6) > .hidden",
+      "targets": [
+        ["css=.group:nth-child(6) > .hidden", "css:finder"],
+        ["xpath=(//a[contains(text(),'Teams')])[2]", "xpath:link"],
+        ["xpath=//div[@id='primaryNavigation_qQO0FWI3-RIhkg6wspVUz']/div/div/div[6]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/tournaments/cricketworldcup/teams')])[2]", "xpath:href"],
+        ["xpath=//div[4]/div/div/div[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b1eea110-1460-48e2-aafd-1b2dbf0ad8dc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.si-card-item:nth-child(3) .si-team-b > .si-team-data-wrap",
+      "targets": [
+        ["css=.si-card-item:nth-child(3) .si-team-b > .si-team-data-wrap", "css:finder"],
+        ["xpath=//div[@id='swiper-wrapper-3ef6ac4b425f1793']/div[3]/div[2]/div/div[2]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div/div[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ea175371-68b2-48fa-be96-2ddc29b71c5c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.si-card-item:nth-child(3) .si-btn-text",
+      "targets": [
+        ["css=.si-card-item:nth-child(3) .si-btn-text", "css:finder"],
+        ["xpath=//div[@id='swiper-wrapper-3ef6ac4b425f1793']/div[3]/div[2]/div[3]/a/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div[3]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "a1b71892-a8eb-4779-aa4b-839743b0c8f3",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["8f156a29-3df9-4dbf-ac95-b215af2e2be2"]
+  }],
+  "urls": ["https://www.icc-cricket.com/"],
+  "plugins": []
+}

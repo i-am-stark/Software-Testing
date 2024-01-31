@@ -1,0 +1,93 @@
+{
+  "id": "b56fc3f7-40db-4ddf-8e5b-95ad543fdf35",
+  "version": "2.0",
+  "name": "Project10",
+  "url": "https://www.iitb.ac.in",
+  "tests": [{
+    "id": "c8fac172-b8fc-4c4e-934a-6896325b6a0f",
+    "name": "Test10",
+    "commands": [{
+      "id": "5f588268-641e-4255-82e7-44b15507327d",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b66e085f-2bf5-41ae-beaf-2d952e4bbe37",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1330x691",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0082925c-24a1-4b1f-b043-8b5a2fdba531",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,550)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "03ed5d77-ebef-4813-bf6b-6b92c090db3b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Facilities at IIT Bombay",
+      "targets": [
+        ["linkText=Facilities at IIT Bombay", "linkText"],
+        ["css=.right:nth-child(1) > #menu-4368-1 #menu-2046-1 > .sf-depth-2", "css:finder"],
+        ["xpath=(//a[contains(text(),'Facilities at IIT Bombay')])[2]", "xpath:link"],
+        ["xpath=(//li[@id='menu-2046-1']/a)[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/en/facilities-iit-bombay')])[3]", "xpath:href"],
+        ["xpath=//section/ul/li[3]/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "81cee92d-7815-4055-97ce-77e685741625",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Kendriya Vidyalaya",
+      "targets": [
+        ["linkText=Kendriya Vidyalaya", "linkText"],
+        ["css=.field-item li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Kendriya Vidyalaya')]", "xpath:link"],
+        ["xpath=//div[@id='node-404']/div[2]/div/div/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.kviitmumbai.com/')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Kendriya Vidyalaya')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win9341",
+      "windowTimeout": 2000
+    }, {
+      "id": "7f2abc85-74d5-4f30-b5a2-c8123bf1105c",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win9341}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "72f1b5ce-d40c-4688-a0fe-faa9cfeb7936",
+      "comment": "",
+      "command": "click",
+      "target": "css=.main-button",
+      "targets": [
+        ["css=.main-button", "css:finder"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div/div[4]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'continue ✔️')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "816cc28e-c557-4d3c-a4e7-0568f8711e86",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["c8fac172-b8fc-4c4e-934a-6896325b6a0f"]
+  }],
+  "urls": ["https://www.iitb.ac.in/"],
+  "plugins": []
+}

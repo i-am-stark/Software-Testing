@@ -1,0 +1,83 @@
+{
+  "id": "3bf7c7bc-1980-469e-b210-f8c57553c8bf",
+  "version": "2.0",
+  "name": "Project9",
+  "url": "https://gate.iitk.ac.in",
+  "tests": [{
+    "id": "ae84cd91-f2f6-431d-ae08-09a8fac26180",
+    "name": "Test9",
+    "commands": [{
+      "id": "3fd8cf08-39d8-499b-a401-1fb6b6606681",
+      "comment": "",
+      "command": "open",
+      "target": "/GATE2023/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0cfe6da9-b4fd-44ea-a4d3-5e18a4765fda",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1330x691",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c777881b-7331-4d49-8c7f-62b992bda7eb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dropdown:nth-child(2) > .dropdown-toggle",
+      "targets": [
+        ["css=.dropdown:nth-child(2) > .dropdown-toggle", "css:finder"],
+        ["xpath=//div[@id='navbar']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d9eab47-a624-45d7-bade-b23947cf5177",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Papers & Syllabus",
+      "targets": [
+        ["linkText=Papers & Syllabus", "linkText"],
+        ["css=.open li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Papers & Syllabus')]", "xpath:link"],
+        ["xpath=//div[@id='navbar']/ul/li[2]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'gate_syllabus.html')]", "xpath:href"],
+        ["xpath=//li[2]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Papers & Syllabus')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "affa1491-47e6-4eae-848a-498f62f32419",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(8) > td:nth-child(1) > a > b",
+      "targets": [
+        ["css=tr:nth-child(8) > td:nth-child(1) > a > b", "css:finder"],
+        ["xpath=//tr[8]/td/a/b", "xpath:position"],
+        ["xpath=//b[contains(.,'Computer Science and Information Technology')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win3860",
+      "windowTimeout": 2000
+    }, {
+      "id": "661eec3e-efa1-43ff-b0fe-7d15a8ea0b93",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win3860}",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "5ea2b39d-f745-4bf2-8545-a06331cf733c",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["ae84cd91-f2f6-431d-ae08-09a8fac26180"]
+  }],
+  "urls": ["https://gate.iitk.ac.in/"],
+  "plugins": []
+}

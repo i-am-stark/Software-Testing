@@ -1,0 +1,102 @@
+{
+  "id": "a682533b-65ae-410d-b419-b5b4fe44b5af",
+  "version": "2.0",
+  "name": "Project4",
+  "url": "https://www.espn.in",
+  "tests": [{
+    "id": "4afdf69d-43c2-4537-86a2-6eca4366ac1a",
+    "name": "Test4",
+    "commands": [{
+      "id": "36da8c68-b113-429d-8ce7-f809930e8507",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b30a4cb6-e755-4395-aa24-450fb2c6ef70",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1330x691",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "acb9a863-d277-4998-b596-73d7e3fb0e59",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-one > .sub-module:nth-child(3) .quicklinks_list__item:nth-child(1) .quicklinks_list__name",
+      "targets": [
+        ["css=.col-one > .sub-module:nth-child(3) .quicklinks_list__item:nth-child(1) .quicklinks_list__name", "css:finder"],
+        ["xpath=//section[@id='main-container']/div/section/article[3]/div/ul/li/a/div[2]/span", "xpath:idRelative"],
+        ["xpath=//div[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'IPL 2023')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f4bd905-49d5-45a3-a72c-cea81f9a1bf9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hover .link-text",
+      "targets": [
+        ["css=.hover .link-text", "css:finder"],
+        ["xpath=//nav[@id='global-nav-secondary']/div/ul/li[4]/a/span", "xpath:idRelative"],
+        ["xpath=//nav[2]/div/ul/li[4]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "542570b7-708e-4dfe-9021-b145d803e783",
+      "comment": "",
+      "command": "click",
+      "target": "css=.standings-row:nth-child(4) .team-names",
+      "targets": [
+        ["css=.standings-row:nth-child(4) .team-names", "css:finder"],
+        ["xpath=//section[@id='main-container']/div/section/div/div/div[2]/div/table/tbody/tr[4]/td/a[2]/span", "xpath:idRelative"],
+        ["xpath=//tr[4]/td/a[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Mumbai Indians')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "69470459-4d9b-443b-a1ce-564ee657ac7b",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,49)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ce6e8829-8bce-4e76-b22c-6167402099e3",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(5) .cscore_item:nth-child(1) > .cscore_team",
+      "targets": [
+        ["css=li:nth-child(5) .cscore_item:nth-child(1) > .cscore_team", "css:finder"],
+        ["xpath=//div[@id='results']/ul/li[5]/div/a/div[2]/ul/li/div[2]", "xpath:idRelative"],
+        ["xpath=//li[5]/div/a/div[2]/ul/li/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "db9cb6ee-d201-493e-bd00-6be8dff57da2",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,47)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d687bdfa-cd94-42f7-b702-af50c3cdde4f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,186)",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "508bea62-a206-4a5d-a74d-71e60e65e883",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["4afdf69d-43c2-4537-86a2-6eca4366ac1a"]
+  }],
+  "urls": ["https://www.espn.in/"],
+  "plugins": []
+}

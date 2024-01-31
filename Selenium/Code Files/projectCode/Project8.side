@@ -1,0 +1,87 @@
+{
+  "id": "92777c2e-680d-44c2-b307-75c2acf3e7e6",
+  "version": "2.0",
+  "name": "Project8",
+  "url": "https://www.nitrkl.ac.in",
+  "tests": [{
+    "id": "b6773c30-7034-4ef0-a019-e22afdeede04",
+    "name": "Test8",
+    "commands": [{
+      "id": "d000fd11-bc51-4d62-a8e4-3e5f4ea457d3",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "79cfe2df-15a7-4f72-b2d7-4120e28c9542",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1330x691",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b8a931ec-cd55-4acd-b2cd-ed0ebdf62079",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Placement",
+      "targets": [
+        ["linkText=Placement", "linkText"],
+        ["css=.item:nth-child(1) > ul > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Placement')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/CDC')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Placement')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c1914736-6b42-438e-a572-7d197c04bcc7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Placement Statistics",
+      "targets": [
+        ["linkText=Placement Statistics", "linkText"],
+        ["css=.right-menu li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Placement Statistics')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/CDC/Statistics')]", "xpath:href"],
+        ["xpath=//div[2]/div/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Placement Statistics')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "74ebcb79-b6b1-4550-aaf7-55a89703a5fc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-md-4:nth-child(1) .fa",
+      "targets": [
+        ["css=.col-md-4:nth-child(1) .fa", "css:finder"],
+        ["xpath=//div/a/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "291b9430-7908-441f-85f6-f6c30a2301df",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Placement Brochure",
+      "targets": [
+        ["linkText=Placement Brochure", "linkText"],
+        ["css=.right-menu li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Placement Brochure')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/CDC/Brochure')]", "xpath:href"],
+        ["xpath=//div[2]/div/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Placement Brochure')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "da7ed888-8883-4c5b-9fc4-84a1a91dd348",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["b6773c30-7034-4ef0-a019-e22afdeede04"]
+  }],
+  "urls": ["https://www.nitrkl.ac.in/"],
+  "plugins": []
+}

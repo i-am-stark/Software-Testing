@@ -1,0 +1,96 @@
+{
+  "id": "a93545c2-ff64-4dbe-b3a6-907dcdb5287f",
+  "version": "2.0",
+  "name": "Project3",
+  "url": "https://www.geeksforgeeks.org",
+  "tests": [{
+    "id": "a2b02139-0c64-44d2-962c-ce0291fe1439",
+    "name": "Test3",
+    "commands": [{
+      "id": "e13f9fbf-5eb1-4bd4-bf83-cabbea5c2dc3",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "981e42c8-396c-49d4-9442-102446b6116b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1330x691",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1cf1bbf8-0190-4569-87b2-98ec27a64eef",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=All DSA Problems",
+      "targets": [
+        ["linkText=All DSA Problems", "linkText"],
+        ["css=.selected > a", "css:finder"],
+        ["xpath=//a[contains(text(),'All DSA Problems')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.geeksforgeeks.org/explore?page=1&sortBy=submissions&itm_source=geeksforgeeks&itm_medium=main_header&itm_campaign=practice_header')]", "xpath:href"],
+        ["xpath=//div/ul/li[4]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'All DSA Problems')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e53581d-5045-4972-922e-3e2b55d6472a",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(4) > .explore_topic_radio_filter__uEEir:nth-child(2) label",
+      "targets": [
+        ["css=div:nth-child(4) > .explore_topic_radio_filter__uEEir:nth-child(2) label", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div[2]/div/div[2]/div/div/div[4]/div[2]/div/label", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/div/label", "xpath:position"],
+        ["xpath=//label[contains(.,'SDE Sheet')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc834c11-241b-49d6-9efa-0d328c986fac",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "94be276a-d2f4-47de-9140-4494a1d6621f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5c5d5080-b837-4823-9fb1-ce36953dde8e",
+      "comment": "",
+      "command": "click",
+      "target": "css=#scrollableDiv .infinite-scroll-component__outerdiv .explore_problem__XatX9:nth-child(5) .ui",
+      "targets": [
+        ["css=#scrollableDiv .infinite-scroll-component__outerdiv .explore_problem__XatX9:nth-child(5) .ui", "css:finder"],
+        ["xpath=//div[@id='scrollableDiv']/div/div/div[6]/div/div[5]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div[5]/div/div[2]/button", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win3954",
+      "windowTimeout": 2000
+    }, {
+      "id": "585cf1ca-863b-4796-afdf-162665057603",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win3954}",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "22d0b3d5-4a95-4df7-9a56-3a15f0cd9483",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["a2b02139-0c64-44d2-962c-ce0291fe1439"]
+  }],
+  "urls": ["https://www.geeksforgeeks.org/"],
+  "plugins": []
+}

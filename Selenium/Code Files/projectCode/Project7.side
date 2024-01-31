@@ -1,0 +1,154 @@
+{
+  "id": "07765692-f199-4d18-aa9e-e629118baeaa",
+  "version": "2.0",
+  "name": "Project7",
+  "url": "https://www.foxsports.com",
+  "tests": [{
+    "id": "71e7e6c6-7851-498a-a7c7-ad07a6c43fd0",
+    "name": "Test7",
+    "commands": [{
+      "id": "cf4504c9-fb12-4b6a-83db-f5ada1f3eaa4",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c03369b4-7f26-4f53-9eca-e0116c0eb92e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1330x691",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4cd406f9-22a2-48dd-8b0e-09584e056fc3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-item:nth-child(2) .nav-item-text",
+      "targets": [
+        ["css=.nav-item:nth-child(2) .nav-item-text", "css:finder"],
+        ["xpath=//div[@id='nav']/div[2]/div[2]/ul/li[2]/a/div[2]/span", "xpath:idRelative"],
+        ["xpath=//li[2]/a/div[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "79586ac1-bebd-46b8-8858-a20aa68a4a37",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.nav-item:nth-child(2) .nav-item-text",
+      "targets": [
+        ["css=.nav-item:nth-child(2) .nav-item-text", "css:finder"],
+        ["xpath=//div[@id='nav']/div[2]/div[2]/ul/li[2]/a/div[2]/span", "xpath:idRelative"],
+        ["xpath=//li[2]/a/div[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1814f809-1bae-4082-a770-7ffc7b821620",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.score-chip:nth-child(1) .score-team-row:nth-child(1)",
+      "targets": [
+        ["css=.score-chip:nth-child(1) .score-team-row:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='20240110']/a/div/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//a/div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "68fb7e96-7b62-42d9-9371-9cf1a84fa525",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.score-chip:nth-child(1) .score-team-row:nth-child(1)",
+      "targets": [
+        ["css=.score-chip:nth-child(1) .score-team-row:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='20240110']/a/div/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//a/div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4ad07758-0e85-4b3e-9af8-634b775124fa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.horizontal-nav-item:nth-child(5) > .nav-item-horizontal-text",
+      "targets": [
+        ["css=.horizontal-nav-item:nth-child(5) > .nav-item-horizontal-text", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/div[2]/div/div/div/div[2]/div[2]/a[5]/h2", "xpath:idRelative"],
+        ["xpath=//a[5]/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'SOCCER')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc3a6208-5644-4a70-b617-886ddb06453a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.score-chip:nth-child(1) .highlight-text",
+      "targets": [
+        ["css=.score-chip:nth-child(1) .highlight-text", "css:finder"],
+        ["xpath=//div[@id='c0d20240110']/a/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/a/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "23e686ee-9d66-4547-827f-76cfa5490619",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.score-chip:nth-child(1) .highlight-text",
+      "targets": [
+        ["css=.score-chip:nth-child(1) .highlight-text", "css:finder"],
+        ["xpath=//div[@id='c0d20240110']/a/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/a/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c4f1dc9d-a158-4304-b938-71a030830207",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,341)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "da337bab-3b2a-4661-b5b8-335f8ab4eb45",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pill-comp:nth-child(1) > span",
+      "targets": [
+        ["css=.pill-comp:nth-child(1) > span", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/div[2]/div/div[2]/div/div/div[3]/div[2]/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "04a87728-ee30-40c5-8648-00ba10b624ad",
+      "comment": "",
+      "command": "click",
+      "target": "css=.score-team-row:nth-child(1) > .score-team-score",
+      "targets": [
+        ["css=.score-team-row:nth-child(1) > .score-team-score", "css:finder"],
+        ["xpath=//div[@id='c0d20240109']/a/div/div[2]/div/div/div[4]", "xpath:idRelative"],
+        ["xpath=//a/div/div[2]/div/div/div[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "abfbef01-6d7a-48d0-8368-920ce8eec25d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.player-container:nth-child(3) img",
+      "targets": [
+        ["css=.player-container:nth-child(3) img", "css:finder"],
+        ["xpath=//img[@alt='Cole Palmer']", "xpath:img"],
+        ["xpath=//div[@id='__layout']/div/div[2]/div/div[2]/div[2]/div/div[3]/div/div[3]/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[3]/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "8dd59862-e758-4a98-988e-e82180d3afbd",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["71e7e6c6-7851-498a-a7c7-ad07a6c43fd0"]
+  }],
+  "urls": ["https://www.foxsports.com/"],
+  "plugins": []
+}

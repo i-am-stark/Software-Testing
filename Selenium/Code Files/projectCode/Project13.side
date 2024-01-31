@@ -1,0 +1,162 @@
+{
+  "id": "3215bd9c-cfe7-4298-9f0d-039c7ea0143a",
+  "version": "2.0",
+  "name": "Project13",
+  "url": "https://www.realmadrid.com",
+  "tests": [{
+    "id": "b5a8fbb6-031d-4c76-9777-9d480015b8cb",
+    "name": "Test13",
+    "commands": [{
+      "id": "6b9fd722-4c16-4cd2-bfb1-a719712158e7",
+      "comment": "",
+      "command": "open",
+      "target": "/en-US",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "274e2341-441e-4bb4-a4a4-6da979e2edb6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1330x691",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "54d85200-1ee0-421c-a5bb-a39c7868d068",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Tickets",
+      "targets": [
+        ["linkText=Tickets", "linkText"],
+        ["css=.rm-web-nav__item--link:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Tickets')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/en-US/tickets')])[2]", "xpath:href"],
+        ["xpath=//div[3]/nav/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cd1c98c6-841f-41f9-955b-923bab8e182f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,33)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "99bb67b4-77a1-4e1e-8ba6-605848460fa2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rm-chip:nth-child(6) font > font",
+      "targets": [
+        ["css=.rm-chip:nth-child(6) font > font", "css:finder"],
+        ["xpath=//div[6]/label/font/font", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "930139dd-7774-45cc-84c8-3e736e59eed5",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,964)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b9e31403-4892-42f2-836a-06fae99acf1a",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9d3db53c-efe7-4a9e-b868-5857087d049a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rm-chip:nth-child(3) font > font",
+      "targets": [
+        ["css=.rm-chip:nth-child(3) font > font", "css:finder"],
+        ["xpath=//div[3]/label/font/font", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "975a17e2-185e-45a2-9d32-d46ae9863a50",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d0b0f596-49cd-4087-aa37-c9718c298bc3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rm-web-nav__item:nth-child(4) > font > font",
+      "targets": [
+        ["css=.rm-web-nav__item:nth-child(4) > font > font", "css:finder"],
+        ["xpath=//a[4]/font/font", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "27d2626d-981b-4bb9-97c1-67d1d2dddc82",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=a:nth-child(3)",
+      "targets": [
+        ["css=a:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Schools')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/sites/en/tour-bernabeu/schools')]", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "94b68031-1045-4672-a2b4-7d47dde389c4",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=a:nth-child(3)",
+      "targets": [
+        ["css=a:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Schools')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/sites/en/tour-bernabeu/schools')]", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ffe32fe-451b-4f1c-9f31-0ba05d421136",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,139)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c7e5006a-8b25-4352-9626-ede50da28b17",
+      "comment": "",
+      "command": "click",
+      "target": "css=nav > a:nth-child(3)",
+      "targets": [
+        ["css=nav > a:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Schools')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/sites/en/tour-bernabeu/schools')]", "xpath:href"],
+        ["xpath=//nav/a[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "992cd5e7-1096-4aaf-90c8-d9a8ae169c75",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=RM Play",
+      "targets": [
+        ["linkText=RM Play", "linkText"],
+        ["css=li:nth-child(6) > .top-menu-item", "css:finder"],
+        ["xpath=(//a[contains(text(),'RM Play')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://play.realmadrid.com/home?itm_campaign=rmcom-menuheader_all_acceso_ott_en')])[2]", "xpath:href"],
+        ["xpath=//div[4]/ul/li[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "12208fbf-0985-46fb-879f-a016c0fa90ca",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["b5a8fbb6-031d-4c76-9777-9d480015b8cb"]
+  }],
+  "urls": ["https://www.realmadrid.com/"],
+  "plugins": []
+}
