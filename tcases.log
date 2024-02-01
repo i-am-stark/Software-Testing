@@ -1,0 +1,12 @@
+15:29:08.409 INFO  org.cornutum.tcases.Tcases - Tcases 4.0.3 (2024-01-19)
+15:29:08.425 INFO  org.cornutum.tcases.Tcases - Reading system input definition from .\find-Input.xml
+15:29:08.518 INFO  o.c.t.generator.TupleGenerator - FunctionInputDef[find]: Preparing constraint info
+15:29:08.518 INFO  o.c.t.generator.TupleGenerator - FunctionInputDef[find]: Generating test cases
+15:29:08.518 INFO  o.c.t.generator.TupleGenerator - FunctionInputDef[find]: Extended 0 valid base test cases
+15:29:08.549 INFO  o.c.t.generator.TupleGenerator - FunctionInputDef[find]: Created 6 valid test cases
+15:29:08.549 INFO  o.c.t.generator.TupleGenerator - FunctionInputDef[find]: Extended 0 base failure test cases
+15:29:08.549 INFO  o.c.t.generator.TupleGenerator - FunctionInputDef[find]: Created 4 failure test cases
+15:29:08.549 INFO  o.c.t.generator.TupleGenerator - FunctionInputDef[find]: Completed 10 test cases
+15:29:08.581 INFO  org.cornutum.tcases.Tcases - Writing test definition to .\findTest.java
+15:29:37.562 INFO  org.cornutum.tcases.Tcases - Tcases 4.0.3 (2024-01-19)
+15:29:37.562 INFO  org.cornutum.tcases.Tcases - Reading system input definition from standard input
