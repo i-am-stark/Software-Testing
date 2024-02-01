@@ -1,28 +1,12 @@
-15:11:05.403 INFO  org.cornutum.tcases.Tcases - Tcases 4.0.3 (2024-01-19)
-15:11:05.408 INFO  org.cornutum.tcases.Tcases - Reading system input definition from standard input
-15:11:05.599 ERROR o.c.t.io.SystemInputJsonReader - Examples,find,pattern,quoted: minLength=2 is less than the required minimum=3. Adjusting minLength to the required minimum.
-15:11:05.600 ERROR o.c.t.io.SystemInputJsonReader - Examples,find,pattern,quotedBlanks: minLength=2 is less than the required minimum=3. Adjusting minLength to the required minimum.
-15:11:05.600 ERROR o.c.t.io.SystemInputJsonReader - Examples,find,pattern,quotedQuotes: minLength=2 is less than the required minimum=4. Adjusting minLength to the required minimum.
-15:11:05.660 INFO  o.c.t.generator.TupleGenerator - FunctionInputDef[find]: Preparing constraint info
-15:11:05.667 INFO  o.c.t.generator.TupleGenerator - FunctionInputDef[find]: Generating test cases
-15:11:05.672 INFO  o.c.t.generator.TupleGenerator - FunctionInputDef[find]: Extended 0 valid base test cases
-15:11:05.691 INFO  o.c.t.generator.TupleGenerator - FunctionInputDef[find]: Created 7 valid test cases
-15:11:05.691 INFO  o.c.t.generator.TupleGenerator - FunctionInputDef[find]: Extended 0 base failure test cases
-15:11:05.693 INFO  o.c.t.generator.TupleGenerator - FunctionInputDef[find]: Created 3 failure test cases
-15:11:05.693 INFO  o.c.t.generator.TupleGenerator - FunctionInputDef[find]: Completed 10 test cases
-15:11:05.708 INFO  org.cornutum.tcases.Tcases - Writing test definition to standard output
-15:16:14.001 INFO  org.cornutum.tcases.Tcases - Tcases 4.0.3 (2024-01-19)
-15:16:14.015 INFO  org.cornutum.tcases.Tcases - Reading system input definition from .\find-Input.json
-15:16:14.209 ERROR o.c.t.io.SystemInputJsonReader - Examples,find,pattern,quoted: minLength=2 is less than the required minimum=3. Adjusting minLength to the required minimum.
-15:16:14.211 ERROR o.c.t.io.SystemInputJsonReader - Examples,find,pattern,quotedBlanks: minLength=2 is less than the required minimum=3. Adjusting minLength to the required minimum.
-15:16:14.212 ERROR o.c.t.io.SystemInputJsonReader - Examples,find,pattern,quotedQuotes: minLength=2 is less than the required minimum=4. Adjusting minLength to the required minimum.
-15:16:14.245 INFO  org.cornutum.tcases.Tcases - Reading base test definition=.\find-Test.json
-15:16:14.288 INFO  org.cornutum.tcases.Tcases - Reading generator definition=.\find-Generators.json
-15:16:14.323 INFO  o.c.t.generator.TupleGenerator - FunctionInputDef[find]: Preparing constraint info
-15:16:14.330 INFO  o.c.t.generator.TupleGenerator - FunctionInputDef[find]: Generating test cases
-15:16:14.350 INFO  o.c.t.generator.TupleGenerator - FunctionInputDef[find]: Extended 7 valid base test cases
-15:16:14.351 INFO  o.c.t.generator.TupleGenerator - FunctionInputDef[find]: Created 0 valid test cases
-15:16:14.352 INFO  o.c.t.generator.TupleGenerator - FunctionInputDef[find]: Extended 3 base failure test cases
-15:16:14.352 INFO  o.c.t.generator.TupleGenerator - FunctionInputDef[find]: Created 0 failure test cases
-15:16:14.352 INFO  o.c.t.generator.TupleGenerator - FunctionInputDef[find]: Completed 10 test cases
-15:16:14.373 INFO  org.cornutum.tcases.Tcases - Writing test definition to .\find-Test.htm
+15:29:08.409 INFO  org.cornutum.tcases.Tcases - Tcases 4.0.3 (2024-01-19)
+15:29:08.425 INFO  org.cornutum.tcases.Tcases - Reading system input definition from .\find-Input.xml
+15:29:08.518 INFO  o.c.t.generator.TupleGenerator - FunctionInputDef[find]: Preparing constraint info
+15:29:08.518 INFO  o.c.t.generator.TupleGenerator - FunctionInputDef[find]: Generating test cases
+15:29:08.518 INFO  o.c.t.generator.TupleGenerator - FunctionInputDef[find]: Extended 0 valid base test cases
+15:29:08.549 INFO  o.c.t.generator.TupleGenerator - FunctionInputDef[find]: Created 6 valid test cases
+15:29:08.549 INFO  o.c.t.generator.TupleGenerator - FunctionInputDef[find]: Extended 0 base failure test cases
+15:29:08.549 INFO  o.c.t.generator.TupleGenerator - FunctionInputDef[find]: Created 4 failure test cases
+15:29:08.549 INFO  o.c.t.generator.TupleGenerator - FunctionInputDef[find]: Completed 10 test cases
+15:29:08.581 INFO  org.cornutum.tcases.Tcases - Writing test definition to .\findTest.java
+15:29:37.562 INFO  org.cornutum.tcases.Tcases - Tcases 4.0.3 (2024-01-19)
+15:29:37.562 INFO  org.cornutum.tcases.Tcases - Reading system input definition from standard input
