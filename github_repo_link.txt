@@ -1,0 +1,5 @@
+Aman Maurya - 223CS3153
+Software Testing Lab
+All assignments are saved in this repository:
+
+https://github.com/i-am-stark/Software-Testing
