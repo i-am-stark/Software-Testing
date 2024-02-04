@@ -1,0 +1,84 @@
+<System name="Examples">
+    <Function name="addShape">
+        <!--
+            Usage: "addShape" 
+
+        This function is designed for adding shapes, and each test case within it is annotated with metadata such as page type, page name, and page value. 
+        The input section captures variables related to shape creation, including "Type" (indicating the shape type with possible values SQUARE, CIRCLE, or LINE), "Size" (representing the size with values 1, 10, or 	100 with an additional property "Large" for the latter), and "Color" (indicating the color with possible values red, green, or blue). 
+        Each variable is annotated with its type, name, and application method. 
+        The function serves as a flexible tool for testing shape creation with various attributes, providing a clear and structured approach for defining test cases and expected outcomes.
+        -->
+        <Has name="pageType" value="Page"/>
+        <Has name="pageName" value="page"/>
+        <Has name="pageValue" value="new Page()"/>
+
+        <Input>
+
+            <!--
+                Variable: Type
+                - Describes a shape type variable.
+                - Annotations:
+                    - varType: Indicates the type of the variable (Shape).
+                    - varName: Specifies the variable name (shape).
+                    - varEval: Specifies the evaluation value (new Shape).
+                - Possible Values:
+                    - SQUARE
+                    - CIRCLE
+                    - LINE (1D)
+            -->
+            <Var name="Type">
+                <Has name="varType" value="Shape"/>
+                <Has name="varName" value="shape"/>
+                <Has name="varEval" value="new Shape"/>
+
+                <Value name="SQUARE"/>
+                <Value name="CIRCLE"/>
+                <Value name="LINE" property="1D"/>
+            </Var>
+
+            <!--
+                Variable: Size
+                - Describes a size variable.
+                - Annotations:
+                    - varType: Indicates the type of the variable (int).
+                    - varName: Specifies the variable name (size).
+                    - varApply: Specifies the method to apply the variable (setSize).
+                - Possible Values:
+                    - 1
+                    - 10
+                    - 100 (Large)
+            -->
+            <Var name="Size">
+                <Has name="varType" value="int"/>
+                <Has name="varName" value="size"/>
+                <Has name="varApply" value="setSize"/>
+
+                <Value name="1"/>
+                <Value name="10"/>
+                <Value name="100" property="Large"/>
+            </Var>
+
+            <!--
+                Variable: Color
+                - Describes a color variable.
+                - Annotations:
+                    - varType: Indicates the type of the variable (String).
+                    - varName: Specifies the variable name (color).
+                    - varApply: Specifies the method to apply the variable (setColor).
+                - Possible Values:
+                    - red
+                    - green
+                    - blue
+            -->
+            <Var name="Color">
+                <Has name="varType" value="String"/>
+                <Has name="varName" value="color"/>
+                <Has name="varApply" value="setColor"/>
+
+                <Value name="red"/>
+                <Value name="green"/>
+                <Value name="blue"/>
+            </Var>
+        </Input>
+    </Function>
+</System>

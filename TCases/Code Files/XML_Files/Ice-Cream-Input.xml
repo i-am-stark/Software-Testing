@@ -1,0 +1,128 @@
+<System name="Ice-Cream">
+    <Function name="Cones">
+        <Input>
+            <!-- 
+                Usage: Configure and categorize ice cream cones
+
+                Cone specifies the type of ice cream cone and its characteristics based on the number of scoops and toppings.
+                The cone can be categorized into different types: Empty, Plain, Plenty, Grande, and Too-Much.
+
+                - Empty: Represents an invalid cone if the number of scoops is less than 1.
+                - Plain: Indicates a cone with one scoop and optionally one topping.
+                - Plenty: Represents a cone with one or two scoops and optionally up to two toppings.
+                - Grande: Denotes a large cone with up to four scoops and one to three toppings.
+                - Too-Much: Represents an invalid cone with excessive scoops (more than 2) or insufficient toppings (less than 4).
+
+                The cone type is determined based on the given conditions for the number of scoops and toppings.
+            -->
+            <Var name="Cone">
+                <Value name="Empty" failure="true">
+                    <When>
+                        <LessThan property="scoop" max="1"/>
+                    </When>
+                </Value>
+                <Value name="Plain">
+                    <When>
+                        <AllOf>
+                            <Equals property="scoop" count="1"/>
+                            <NotMoreThan property="topping" max="1"/>
+                        </AllOf>
+                    </When>
+                </Value>
+                <Value name="Plenty">
+                    <When>
+                        <AllOf>
+                            <Between property="scoop" min="1" max="2"/>
+                            <NotMoreThan property="topping" max="2"/>
+                        </AllOf>
+                    </When>
+                </Value>
+                <Value name="Grande">
+                    <When>
+                        <AllOf>
+                            <Between property="scoop" exclusiveMin="0" exclusiveMax="4"/>
+                            <Between property="topping" min="1" max="3"/>
+                        </AllOf>
+                    </When>
+                </Value>
+                <Value name="Too-Much" failure="true">
+                    <When>
+                        <AnyOf>
+                            <MoreThan property="scoop" min="3"/>                            
+                            <NotLessThan property="topping" min="4"/>                            
+                        </AnyOf> 
+                    </When>
+                </Value>
+            </Var>
+
+            <!--
+                Flavors specifies the availability of different ice cream flavors.
+                Each flavor can either be included or excluded from the cone (Yes/No).
+
+                Flavors include Vanilla, Chocolate, Strawberry, Pistachio, Lemon, and Coffee.
+                The inclusion is determined by the property "scoop" associated with each flavor.
+            -->
+            <VarSet name="Flavors">
+                <Var name="Vanilla">
+                    <Value name="Yes" property="scoop"/>
+                    <Value name="No"/>
+                </Var>
+                <Var name="Chocolate">
+                    <Value name="Yes" property="scoop"/>
+                    <Value name="No"/>
+                </Var>
+                <Var name="Strawberry">
+                    <Value name="Yes" property="scoop"/>
+                    <Value name="No"/>
+                </Var>
+                <Var name="Pistachio">
+                    <Value name="Yes" property="scoop"/>
+                    <Value name="No"/>
+                </Var>
+                <Var name="Lemon">
+                    <Value name="Yes" property="scoop"/>
+                    <Value name="No"/>
+                </Var>
+                <Var name="Coffee">
+                    <Value name="Yes" property="scoop"/>
+                    <Value name="No"/>
+                </Var>
+            </VarSet>
+            
+            <!--
+                Toppings specifies the availability of different ice cream toppings.
+                Each topping can either be included or excluded from the cone (Yes/No).
+
+                Toppings include Sprinkles, Pecans, Oreos, Cherries, MMs, and Peppermint.
+                The inclusion is determined by the property "topping" associated with each topping.
+                Toppings are only considered when the "scoop" property is defined.
+            -->
+            <VarSet name="Toppings" when="scoop">
+                <Var name="Sprinkles">
+                    <Value name="Yes" property="topping"/>
+                    <Value name="No"/>
+                </Var>
+                <Var name="Pecans">
+                    <Value name="Yes" property="topping"/>
+                    <Value name="No"/>
+                </Var>
+                <Var name="Oreos">
+                    <Value name="Yes" property="topping"/>
+                    <Value name="No"/>
+                </Var>
+                <Var name="Cherries">
+                    <Value name="Yes" property="topping"/>
+                    <Value name="No"/>
+                </Var>
+                <Var name="MMs">
+                    <Value name="Yes" property="topping"/>
+                    <Value name="No"/>
+                </Var>
+                <Var name="Peppermint">
+                    <Value name="Yes" property="topping"/>
+                    <Value name="No"/>
+                </Var>
+            </VarSet>
+        </Input>
+    </Function>
+</System>

@@ -79,7 +79,18 @@
           <TABLE class="light">
             <TR>
               <TH>pattern</TH>
-              <TD>"o<azN*%      "</TD>
+              <TD>
+                <TABLE class="dark">
+                  <TR>
+                    <TH>size</TH>
+                    <TD>empty</TD>
+                  </TR>
+                  <TR>
+                    <TH>quoted</TH>
+                    <TD>yes</TD>
+                  </TR>
+                </TABLE>
+              </TD>
             </TR>
             <TR>
               <TH>fileName</TH>
@@ -96,26 +107,7 @@
                 <TABLE class="dark">
                   <TR>
                     <TH>exists</TH>
-                    <TD>true</TD>
-                  </TR>
-                  <TR>
-                    <TH>contents</TH>
-                    <TD>
-                      <TABLE class="light">
-                        <TR>
-                          <TH>linesLongerThanPattern</TH>
-                          <TD>1</TD>
-                        </TR>
-                        <TR>
-                          <TH>patternMatches</TH>
-                          <TD>1</TD>
-                        </TR>
-                        <TR>
-                          <TH>patternsInLine</TH>
-                          <TD>1</TD>
-                        </TR>
-                      </TABLE>
-                    </TD>
+                    <TD>yes</TD>
                   </TR>
                 </TABLE>
               </TD>
@@ -129,7 +121,22 @@
           <TABLE class="light">
             <TR>
               <TH>pattern</TH>
-              <TD>""</TD>
+              <TD>
+                <TABLE class="dark">
+                  <TR>
+                    <TH>size</TH>
+                    <TD>singleChar</TD>
+                  </TR>
+                  <TR>
+                    <TH>quoted</TH>
+                    <TD>no</TD>
+                  </TR>
+                  <TR>
+                    <TH>blanks</TH>
+                    <TD>none</TD>
+                  </TR>
+                </TABLE>
+              </TD>
             </TR>
             <TR>
               <TH>fileName</TH>
@@ -146,7 +153,22 @@
                 <TABLE class="dark">
                   <TR>
                     <TH>exists</TH>
-                    <TD>true</TD>
+                    <TD>yes</TD>
+                  </TR>
+                  <TR>
+                    <TH>contents</TH>
+                    <TD>
+                      <TABLE class="light">
+                        <TR>
+                          <TH>linesLongerThanPattern</TH>
+                          <TD>one</TD>
+                        </TR>
+                        <TR>
+                          <TH>patterns</TH>
+                          <TD>none</TD>
+                        </TR>
+                      </TABLE>
+                    </TD>
                   </TR>
                 </TABLE>
               </TD>
@@ -160,7 +182,26 @@
           <TABLE class="light">
             <TR>
               <TH>pattern</TH>
-              <TD>"2*)K/5B*v"</TD>
+              <TD>
+                <TABLE class="dark">
+                  <TR>
+                    <TH>size</TH>
+                    <TD>manyChars</TD>
+                  </TR>
+                  <TR>
+                    <TH>quoted</TH>
+                    <TD>yes</TD>
+                  </TR>
+                  <TR>
+                    <TH>blanks</TH>
+                    <TD>many</TD>
+                  </TR>
+                  <TR>
+                    <TH>embeddedQuotes</TH>
+                    <TD>none</TD>
+                  </TR>
+                </TABLE>
+              </TD>
             </TR>
             <TR>
               <TH>fileName</TH>
@@ -177,7 +218,7 @@
                 <TABLE class="dark">
                   <TR>
                     <TH>exists</TH>
-                    <TD>true</TD>
+                    <TD>yes</TD>
                   </TR>
                   <TR>
                     <TH>contents</TH>
@@ -185,11 +226,15 @@
                       <TABLE class="light">
                         <TR>
                           <TH>linesLongerThanPattern</TH>
-                          <TD>13</TD>
+                          <TD>many</TD>
                         </TR>
                         <TR>
-                          <TH>patternMatches</TH>
-                          <TD>0</TD>
+                          <TH>patterns</TH>
+                          <TD>one</TD>
+                        </TR>
+                        <TR>
+                          <TH>patternsInLine</TH>
+                          <TD>one</TD>
                         </TR>
                       </TABLE>
                     </TD>
@@ -206,7 +251,22 @@
           <TABLE class="light">
             <TR>
               <TH>pattern</TH>
-              <TD>"""""""""""a"""</TD>
+              <TD>
+                <TABLE class="dark">
+                  <TR>
+                    <TH>size</TH>
+                    <TD>singleChar</TD>
+                  </TR>
+                  <TR>
+                    <TH>quoted</TH>
+                    <TD>yes</TD>
+                  </TR>
+                  <TR>
+                    <TH>blanks</TH>
+                    <TD>one</TD>
+                  </TR>
+                </TABLE>
+              </TD>
             </TR>
             <TR>
               <TH>fileName</TH>
@@ -223,7 +283,7 @@
                 <TABLE class="dark">
                   <TR>
                     <TH>exists</TH>
-                    <TD>true</TD>
+                    <TD>yes</TD>
                   </TR>
                   <TR>
                     <TH>contents</TH>
@@ -231,15 +291,15 @@
                       <TABLE class="light">
                         <TR>
                           <TH>linesLongerThanPattern</TH>
-                          <TD>27</TD>
+                          <TD>many</TD>
                         </TR>
                         <TR>
-                          <TH>patternMatches</TH>
-                          <TD>5</TD>
+                          <TH>patterns</TH>
+                          <TD>many</TD>
                         </TR>
                         <TR>
                           <TH>patternsInLine</TH>
-                          <TD>3</TD>
+                          <TD>many</TD>
                         </TR>
                       </TABLE>
                     </TD>
@@ -256,7 +316,26 @@
           <TABLE class="light">
             <TR>
               <TH>pattern</TH>
-              <TD></TD>
+              <TD>
+                <TABLE class="dark">
+                  <TR>
+                    <TH>size</TH>
+                    <TD>manyChars</TD>
+                  </TR>
+                  <TR>
+                    <TH>quoted</TH>
+                    <TD>no</TD>
+                  </TR>
+                  <TR>
+                    <TH>blanks</TH>
+                    <TD>none</TD>
+                  </TR>
+                  <TR>
+                    <TH>embeddedQuotes</TH>
+                    <TD>one</TD>
+                  </TR>
+                </TABLE>
+              </TD>
             </TR>
             <TR>
               <TH>fileName</TH>
@@ -273,7 +352,26 @@
                 <TABLE class="dark">
                   <TR>
                     <TH>exists</TH>
-                    <TD>true</TD>
+                    <TD>yes</TD>
+                  </TR>
+                  <TR>
+                    <TH>contents</TH>
+                    <TD>
+                      <TABLE class="light">
+                        <TR>
+                          <TH>linesLongerThanPattern</TH>
+                          <TD>many</TD>
+                        </TR>
+                        <TR>
+                          <TH>patterns</TH>
+                          <TD>one</TD>
+                        </TR>
+                        <TR>
+                          <TH>patternsInLine</TH>
+                          <TD>one</TD>
+                        </TR>
+                      </TABLE>
+                    </TD>
                   </TR>
                 </TABLE>
               </TD>
@@ -287,7 +385,26 @@
           <TABLE class="light">
             <TR>
               <TH>pattern</TH>
-              <TD>pzo,J48E</TD>
+              <TD>
+                <TABLE class="dark">
+                  <TR>
+                    <TH>size</TH>
+                    <TD>manyChars</TD>
+                  </TR>
+                  <TR>
+                    <TH>quoted</TH>
+                    <TD>yes</TD>
+                  </TR>
+                  <TR>
+                    <TH>blanks</TH>
+                    <TD>many</TD>
+                  </TR>
+                  <TR>
+                    <TH>embeddedQuotes</TH>
+                    <TD>many</TD>
+                  </TR>
+                </TABLE>
+              </TD>
             </TR>
             <TR>
               <TH>fileName</TH>
@@ -304,7 +421,7 @@
                 <TABLE class="dark">
                   <TR>
                     <TH>exists</TH>
-                    <TD>true</TD>
+                    <TD>yes</TD>
                   </TR>
                   <TR>
                     <TH>contents</TH>
@@ -312,15 +429,15 @@
                       <TABLE class="light">
                         <TR>
                           <TH>linesLongerThanPattern</TH>
-                          <TD>31</TD>
+                          <TD>many</TD>
                         </TR>
                         <TR>
-                          <TH>patternMatches</TH>
-                          <TD>1</TD>
+                          <TH>patterns</TH>
+                          <TD>many</TD>
                         </TR>
                         <TR>
                           <TH>patternsInLine</TH>
-                          <TD>1</TD>
+                          <TD>one</TD>
                         </TR>
                       </TABLE>
                     </TD>
@@ -331,13 +448,24 @@
           </TABLE>
         </DIV>
       </DIV>
-      <DIV id="find.6" class="testCase success">
+      <DIV id="find.6" class="testCase failure">
         <H2>Test Case 6</H2>
         <DIV class="input arg">
           <TABLE class="light">
             <TR>
               <TH>pattern</TH>
-              <TD>y</TD>
+              <TD>
+                <TABLE class="dark">
+                  <TR>
+                    <TH>size</TH>
+                    <TD>empty</TD>
+                  </TR>
+                  <TR class="failure">
+                    <TH>quoted</TH>
+                    <TD>unterminated</TD>
+                  </TR>
+                </TABLE>
+              </TD>
             </TR>
             <TR>
               <TH>fileName</TH>
@@ -354,26 +482,7 @@
                 <TABLE class="dark">
                   <TR>
                     <TH>exists</TH>
-                    <TD>true</TD>
-                  </TR>
-                  <TR>
-                    <TH>contents</TH>
-                    <TD>
-                      <TABLE class="light">
-                        <TR>
-                          <TH>linesLongerThanPattern</TH>
-                          <TD>17</TD>
-                        </TR>
-                        <TR>
-                          <TH>patternMatches</TH>
-                          <TD>8</TD>
-                        </TR>
-                        <TR>
-                          <TH>patternsInLine</TH>
-                          <TD>4</TD>
-                        </TR>
-                      </TABLE>
-                    </TD>
+                    <TD>yes</TD>
                   </TR>
                 </TABLE>
               </TD>
@@ -411,7 +520,7 @@
                 <TABLE class="dark">
                   <TR class="failure">
                     <TH>exists</TH>
-                    <TD>false</TD>
+                    <TD>no</TD>
                   </TR>
                 </TABLE>
               </TD>
@@ -425,7 +534,22 @@
           <TABLE class="light">
             <TR>
               <TH>pattern</TH>
-              <TD>"WF]w/_^^W=    "</TD>
+              <TD>
+                <TABLE class="dark">
+                  <TR>
+                    <TH>size</TH>
+                    <TD>singleChar</TD>
+                  </TR>
+                  <TR>
+                    <TH>quoted</TH>
+                    <TD>no</TD>
+                  </TR>
+                  <TR>
+                    <TH>blanks</TH>
+                    <TD>none</TD>
+                  </TR>
+                </TABLE>
+              </TD>
             </TR>
             <TR>
               <TH>fileName</TH>
@@ -442,7 +566,7 @@
                 <TABLE class="dark">
                   <TR>
                     <TH>exists</TH>
-                    <TD>true</TD>
+                    <TD>yes</TD>
                   </TR>
                   <TR>
                     <TH>contents</TH>
@@ -450,7 +574,7 @@
                       <TABLE class="light">
                         <TR class="failure">
                           <TH>linesLongerThanPattern</TH>
-                          <TD>0</TD>
+                          <TD>none</TD>
                         </TR>
                       </TABLE>
                     </TD>
