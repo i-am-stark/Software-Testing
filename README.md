@@ -9,3 +9,4 @@ Assignment 2 : Selenium RC
 Assignment 3 : Selenium WebDriver  
 Assignment 4 : JUnit & PyUnit  
 Assignment 5 : TCases  
+Assignment 6 : Jumble
