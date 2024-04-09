@@ -10,3 +10,6 @@ Assignment 3 : Selenium WebDriver
 Assignment 4 : JUnit & PyUnit  
 Assignment 5 : TCases  
 Assignment 6 : Jumble
+Assignment 7 : JMeter
+Assignment 8 : JCute
+Assignment 9 : FindBugs
